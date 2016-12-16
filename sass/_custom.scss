@@ -32,3 +32,43 @@
         font-size: $icon-size;
     }
 }
+
+.section-b {
+    background: #e6ebf1;
+    padding: 30px 0;
+    img{
+        width:100%;
+    }
+}
+
+.section-c {
+    padding: 60px 0;
+    text-align: center;
+    background: $main-color;
+    color: set-text-color($main-color);
+
+    .btn-primary{
+        background: darken($main-color, 10%);
+    }
+}
+
+.panel-heading h4{
+    color: set-text-color($main-color);
+}
+
+.title-bar {
+    background: url(../img/showcase.jpg) no-repeat 0 -300px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid $main-color;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+footer {
+    padding:30px 0;
+    background: darken($main-color, 10%);
+    color: set-text-color($main-color);
+    text-align:center;
+}
